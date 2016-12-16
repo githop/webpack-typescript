@@ -4,11 +4,12 @@
     "module": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
   },
   "exclude": [
     "node_modules",
-    "typings",
     "dist"
   ]
 }

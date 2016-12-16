@@ -13,7 +13,7 @@ module.exports = env => {
       // pathinfo: true
     },
     resolve: {
-      extensions: ['', '.ts', '.js']
+      extensions: ['.ts', '.js']
     },
     context: resolve(__dirname, 'src'),
     devtool: env.prod ? 'source-map' : 'eval',
